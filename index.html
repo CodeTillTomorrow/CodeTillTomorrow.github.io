@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>高雅洁的主页</title>
+    <meta name="author" content="gyj0712" />
+    <meta name="description" content="fullPage full-screen backgrounds." />
+    <meta name="keywords" content="fullpage,jquery,demo,screen,fullscreen,backgrounds,full-screen" />
+    <meta name="Resource-type" content="Document" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/examples.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullpage.js"></script>
+    <script type="text/javascript" src="js/jquery.slimscroll.js"></script>
+    <script type="text/javascript">
+    $(document).ready
+    (function()
+    {
+        $('#fullpage').fullpage
+        ({
+            anchors: ['0', '1', '2', '3', '4', ],
+            navigation: true,
+            slidesNavigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['首页', '学历及当前状态', '个人技能', '教育', '项目经历', '联系方式',]
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <img src="imgs/gao5.png" alt="gyj" class="my_img"/>
+            <br/>
+            <br/>
+            <h1>高雅洁</h1>
+            <br/>
+            <p>求职意向：Web前端实习生</p>
+            <br/>
+            <p>工作地点：上海</p>
+        </div>
+        <div class="section " id="section1">
+            <h1>学历及当前状态</h1>
+            <br/>
+            <h4><p>东华大学 电子信息工程专业 </p></h4>
+            <br/>
+            <h4><p>2016年6月 本科毕业</p></h4>
+            <br/>
+            <br/>
+            <h4>(参加2017年研究生入学考试，目前等待复试及2017年9月研究生入学)</h4>
+        </div>
+        <div class="section" id="section2">
+            <div style="float:left;">
+                <h1>个人技能</h1>
+                <br/>
+                <h4><p style="align:left;">专业技能：Java/数据结构/HTML/JavaScript/CSS/bootstrap库</p></h4>
+                <br/>
+                <h4><p style="align:left;">外语水平：CET-6 543分、上海外国语大学第二专业（英语专业 获文学学士学位）</p></h4>
+                <br/>
+                <h4><p style="align:left;">其他：嵌入式ARM高级职业资格证、office等办公软件</p></h4>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <h1>项目经历</h1>
+            <br/>
+            <h4><span class="h4_span">国家级</span> 大学生创新项目：攀岩自动保护装置（项目编号：201410255048）</h4>
+            <br/>
+            <h4><span class="h4_span">上海市级</span> 大学生创新项目：物联网RFID射频系统中放大器的设计及测试（项目代码：X171041504）</h4>
+        </div>
+      <div class="section " id="section4">
+            <h1>联系方式</h1>
+            <br/>
+            <h4><span class="h4_span">TEL:13262883812</span></h4>
+            <br/>
+            <a href="mailto:gyj_0712@163.com" style="font-size: 1.5em;">E-mail：gyj_0712@163.com</a>
+
+        </div>
+    </div>
+</body>
+
+</html>
